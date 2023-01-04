@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        <header>
+          <h1>Welcome To Fabevy</h1>
+        </header>
+          
+        <form class="form" autocomplete="off">
+
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <span>Error Message</span>
+          </div>
+
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Enter Your User Name">
+            <span>Error Message</span>
+          </div>
+            
+          <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter Your Password">
+            <span>Error Message</span>
+          </div>
+            
+          <div class="form-control">
+            <label for="cpassword">Confirm Password</label>
+            <input type="password" name="cpassword" id="cpassword" placeholder="Enter Your Password Again">
+            <span>Error Message</span>
+          </div>
+
+          <div class="btn">
+            <button type="submit">LOGIN</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-2">
+        <img src="success.jpg" alt="success">
+      </div>
+    </div>
+  </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
