@@ -65,3 +65,16 @@ function setSuccessFor(input) {
   let formControl = input.parentElement;
   formControl.className = "form-control success";
 }
+
+function getInfo(){
+  let userNameValue = userName.value.trim();
+  let passwordValue = password.value.trim();
+  var username1=localStorage.getItem('username');
+  var password1=localStorage.getItem('password');
+  if(userNameValue==username1 && passwordValue==password1){
+    window.location.href="success.html";
+  }
+  console.log(username1);
+  console.log(password1);
+}
+
